@@ -5,13 +5,16 @@
 
 *{
 	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  min-height: 100vh;
+  height: 100vh;
   width: 100vw;
   font-family:  'Ubuntu'; 
   overflow-x: hidden;
+  
 } 
 
 #main{
@@ -21,6 +24,7 @@ body {
   display: grid;
   justify-items: center;
   align-content: center;
+  
 }
 :root {
   --content: 66ch;
@@ -53,6 +57,7 @@ body {
   font-family: 'Ubuntu';
   font-size: calc(var(--font-size-fluid-3) * 2.5);
   line-height: 1;
+  color: #fff;
 }
 
 .sr-only {
@@ -286,6 +291,11 @@ body {
 }
 /* Mobile Screens (480px and below) */
 @media (max-width: 480px) {
+  /* .heading img {
+    left: 30%; 
+    top: %;
+    scale: 1.2; 
+  } */
   .event img {
     width: 50%;
     max-width: 200px;
@@ -316,5 +326,6 @@ body {
     font-size: 0.9rem;
     padding: 0.75rem;
   }
-}
+  
+} 
 
