@@ -88,7 +88,7 @@ body {
 
 #oec h1 span:nth-of-type(2) {
   color: transparent;
-  -webkit-text-stroke: 0.25rem var(--text-1);
+  -webkit-text-stroke: 0.25rem #fff;
 }
 
 .event {
@@ -108,7 +108,7 @@ body {
   z-index: 2;
   background: black;
   padding: 1rem;
-  color: var(--text-1);
+  color: #fff;
   backdrop-filter: blur(4px);
   font-size: 1rem;
   justify-self: center;
