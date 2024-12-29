@@ -84,6 +84,7 @@ body {
 #oec h1 {
   z-index: 2;
   position: relative;
+  color: #fff;
 }
 
 #oec h1 span:nth-of-type(2) {
